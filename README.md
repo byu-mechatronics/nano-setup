@@ -11,14 +11,18 @@ Arduino Nano Setup
 3. Open your Arduino IDE, change the board type to `Arduino Nano w/ ATmega328` and connect to the correct serial port, as seen below:
   ![Board Type](https://github.com/byu-mechatronics/nano-setup/blob/master/support/board-type.png)
   ![Serial Port](https://github.com/byu-mechatronics/nano-setup/blob/master/support/serial-port.png)
+  **Windows Users:** The serial port will be something like `COM3` or `COM4` (the COM stands for 'communications').
+  **Note:** Make sure to plug in your board, otherwise the serial port will not show up. Also, if it still doesn't show up try restarting your computer.
+
+4. After opening the Arduino IDE, make sure to add the following two functions to your code, as both are required for the Arduino language:
 
 
       void setup() {
         // setup pin outputs and inputs here
       }
     
-      ...
-    
       void loop() {
         // code that always runs in a loop here
       }
+
+5. Look at some of the example code in this repo to see how to get started. Try downloading one of the files to your computer, and then to your Arduino Nano.
