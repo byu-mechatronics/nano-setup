@@ -46,12 +46,22 @@ void loop()
     previousMillis = currentMillis;
     
     counter++;
+
+/*
+  Explanation of bit shifting
+
+    0000 0100 (counter = 4)
+    0000 0010 (0x01 << 1)
+    ---- ---- 
+MSB 7654 3210 - LSB
+
+*/
     
-    unsigned int R = (counter & (0x01 << 4) );
-    unsigned int Y = (counter & (0x01 << 3) );
-    unsigned int G = (counter & (0x01 << 2) );
-    unsigned int B = (counter & (0x01 << 1) );
-    unsigned int W = (counter & (0x01 << 0) );
+    unsigned int R = (counter & (0x01 << 4));
+    unsigned int Y = (counter & (0x01 << 3));
+    unsigned int G = (counter & (0x01 << 2));
+    unsigned int B = (counter & (0x01 << 1));
+    unsigned int W = (counter & (0x01 << 0));
     
     digitalWrite(R_LED, R);
     digitalWrite(Y_LED, Y);
