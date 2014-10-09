@@ -37,7 +37,7 @@ Arduino Nano Setup
 
 Both the [led_crawler](https://github.com/byu-mechatronics/nano-setup/tree/master/led_crawler) and the [binary_counter](https://github.com/byu-mechatronics/nano-setup/tree/master/binary_counter) example projects require a hardware setup as follows:
 
-    ![Nano Test Layout](https://github.com/byu-mechatronics/nano-setup/blob/master/support/nano_test.png)
+![Nano Test Layout](https://github.com/byu-mechatronics/nano-setup/blob/master/support/nano_test.png)
 
 ---------------------------------------------------------------------------
 
