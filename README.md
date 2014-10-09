@@ -14,6 +14,7 @@ Arduino Nano Setup
     
 
   ![Serial Port](https://github.com/byu-mechatronics/nano-setup/blob/master/support/serial-port.png)
+  
   **Windows Users:** The serial port will be something like `COM3` or `COM4` (the COM stands for 'communications').
   
   **Note:** Make sure to plug in your board, otherwise the serial port will not show up. Also, if it still doesn't show up try restarting your computer.
