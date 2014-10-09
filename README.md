@@ -9,7 +9,10 @@ Arduino Nano Setup
     - Alternatively, get them from the Chinese distributer:
       - [Mac](http://www.wch.cn/downloads.php?name=pro&proid=178) or [Windows](http://www.wch.cn/downloads.php?name=pro&proid=65).
 3. Open your Arduino IDE, change the board type to `Arduino Nano w/ ATmega328` and connect to the correct serial port, as seen below:
+    
   ![Board Type](https://github.com/byu-mechatronics/nano-setup/blob/master/support/board-type.png)
+    
+
   ![Serial Port](https://github.com/byu-mechatronics/nano-setup/blob/master/support/serial-port.png)
   **Windows Users:** The serial port will be something like `COM3` or `COM4` (the COM stands for 'communications').
   
@@ -27,6 +30,13 @@ Arduino Nano Setup
         }
 
 5. Look at some of the example code in this repo to see how to get started. Try downloading one of the files to your computer, and then to your Arduino Nano.
+
+---------------------------------------------------------------------------
+
+### Nano Hardware Example ###
+
+Both the [led_crawler](https://github.com/byu-mechatronics/nano-setup/tree/master/led_crawler) and the [binary_counter](https://github.com/byu-mechatronics/nano-setup/tree/master/binary_counter) example projects require a hardware setup as follows:
+
 
 ---------------------------------------------------------------------------
 
