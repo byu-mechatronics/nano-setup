@@ -27,3 +27,11 @@ Arduino Nano Setup
         }
 
 5. Look at some of the example code in this repo to see how to get started. Try downloading one of the files to your computer, and then to your Arduino Nano.
+
+---------------------------------------------------------------------------
+
+### Other Resources ###
+
+- [Arduino Language Reference](http://arduino.cc/en/Reference/HomePage)
+- [Arduino Playground](http://playground.arduino.cc/) - examples of code and interfacing with Hardware
+- [Fritzing](http://fritzing.org/) - used to make clean wiring diagrams
