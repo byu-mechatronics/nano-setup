@@ -17,12 +17,12 @@ Arduino Nano Setup
 4. After opening the Arduino IDE, make sure to add the following two functions to your code, as both are required for the Arduino language:
 
 
-      void setup() {
-        // setup pin outputs and inputs here
-      }
+        void setup() {
+          // setup pin outputs and inputs here
+        }
     
-      void loop() {
-        // code that always runs in a loop here
-      }
+        void loop() {
+          // code that always runs in a loop here
+        }
 
 5. Look at some of the example code in this repo to see how to get started. Try downloading one of the files to your computer, and then to your Arduino Nano.
