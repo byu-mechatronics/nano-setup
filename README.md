@@ -41,7 +41,7 @@ With the release of Mac OS X Yosemite, the old CHP341 driver breaks. This has so
 1. Reinstall the old CHP341 driver, restart machine (even if it was already installed)
 2. Open your terminal and run the follow command:
 
-        sudo nvram boot-args="debug=0x146 kext-dev-mode=1"
+        sudo nvram boot-args="kext-dev-mode=1"
 3. Enter your password when prompted (because of the `sudo` command) and then restart your computer.
 
 Note that this is entering developer mode for this device and is only a temporary fix. To restore your Mac to before (AKA, to exit developer mode), run the following in the terminal:
